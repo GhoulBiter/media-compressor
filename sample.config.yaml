@@ -1,0 +1,22 @@
+security:
+  # Base directory to store files, access to this directory is restricted
+  base_directory: "~/Files_Directory"
+
+  # Allowed MIME types for output
+  allowed_mime_types:
+    - image/
+    - video/
+
+  # Allowed file extensions for output
+  allowed_extensions:
+    - jpg
+    - png
+    - mp4
+    - webm
+
+  # Maximum file size allowed (in MB), 0 means no limit
+  max_file_size_mb: 0
+
+logging:
+  # Set logging level (DEBUG, INFO, WARNING, ERROR)
+  level: INFO
